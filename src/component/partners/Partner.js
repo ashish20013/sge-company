@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const Partner = () => {
   return (
       <div className="accordion container mt-5" id="accordionPanelsStayOpenExample">

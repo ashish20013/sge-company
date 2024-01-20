@@ -23,3 +23,18 @@
   "theme_color": "#000000",
   "background_color": "#ffffff"
 }
+
+{
+  "rules": {
+    "no-unused-expressions": "off"
+  },
+  "overrides": [
+    {
+      "files": ["src/js/bootstrap.bundle.min.js"],
+      "rules": {
+        "no-unused-expressions": "off",
+      }
+    }
+  ]
+}
+

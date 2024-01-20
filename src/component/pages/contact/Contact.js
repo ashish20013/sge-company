@@ -1,4 +1,5 @@
 import React from 'react';
+
 import Inqury from '../inqury/Inqury';
 import { useState } from 'react';
 

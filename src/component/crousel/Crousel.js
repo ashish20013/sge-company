@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import Wheatandflour from "../images/wheatandflour.jpg";
 import Rice from "../images/rice.jpg";
 import Gram from '../images/gram.jpg';
