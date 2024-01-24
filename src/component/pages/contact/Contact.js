@@ -1,16 +1,14 @@
 import React from 'react';
-
+import { Helmet } from 'react-helmet';
+import '../../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Inqury from '../inqury/Inqury';
 import { useState } from 'react';
-
 const Contact = () => {
   const [submitted, setSubmitted] = useState(false);
   const [showSuccess, setShowSuccess] = useState(false);
-
   const handleSubmit = async (e) => {
     e.preventDefault();
     // Perform form submission logic here
-
     // Send message to Telegram bot
     const botToken = '6731739605:AAEX9CvgoRlR3BIHhHt3Tq9bsFOs3IDpt0M'; // Replace with your bot token
     const chatId = '@shrigwal'; // Replace with your chat ID
@@ -37,13 +35,16 @@ Description: ${e.target.description.value}`;
   };
   return (
     <div className="container mt-5">
+      <Helmet>
+        <title>Contact Us - Shri Gwal Exim Pvt. Ltd.</title>
+        <meta name="description" content="Discover top-quality Global foodstuffs exportr ! We specialize in foodstuffs Grains, Pulses, Spices, Edible oils, Fruits & Vegetables, with a strong network of farmers and suppliers, Contact us for your agricultural product needs." />
+        <meta name="keywords" content=" we are international Foodstuffs exporter Grains and cereals, Pulses, Spices, Edible oils, Fruits, Vegetables, Farmers, Producers, Suppliers in Netherlands, South Korea, Spain, Hong Kong, Canada, Vietnam, Belgium, Switzer land, Turkey, Poland, Mexico, Taiwan, Thailand, Russia, Singapore, Finland, chile, Colombia, Greece, NewZealand, Israel, Ukraine, Ireland, Hungary, Norway. Food packaging materials, Joint ventures, Reliable exports, contact us shri gwal exim" />
+      </Helmet>
       <div className="row">
-
-
         <div className="col-md-6">
           <div className="container m-2 shadow " style={{ padding: 40 }}>
             <p><b>Shri Gwal Exim Pvt. Ltd.</b>, we specialize in the global export of premium quality cereals, vegetables, and fruits. Our commitment to excellence and customer satisfaction sets us apart in the industry. Whether you're a importer, distributor, retailer, or wholesaler, we provide tailored solutions to meet your specific needs. With our extensive network and efficient logistics, we ensure timely delivery worldwide.
-               </p>
+            </p>
             <div className='col-md-12 text-center'>
               <h2 className='main-heading'>Contact Info</h2>
               <div className='underline mx-auto'></div>
@@ -53,7 +54,6 @@ Description: ${e.target.description.value}`;
               <p>
                 <i class="bi bi-geo-alt-fill" style={{ marginRight: '5px' }}></i> New Delhi, India
               </p>
-
               <p>
                 <i class="bi bi-telephone-fill" style={{ marginRight: '5px' }}></i> +91 9350132742
               </p>
@@ -61,16 +61,10 @@ Description: ${e.target.description.value}`;
                 <i className="bi bi-headset" style={{ marginRight: '5px' }}></i> +91 8576891104
               </p>
             </div>
-
           </div>
-
         </div>
         <div className="col-md-6">
-
-
           {/* Contact Form Here */}
-
-
           <div className="container m-2 shadow " style={{ padding: 20 }}>
             <h2>
               <div className='col-md-12 text-center'>
@@ -108,10 +102,8 @@ Description: ${e.target.description.value}`;
             )}
           </div>
         </div><hr />
-
       </div>
     </div>
   )
 }
-
 export default Contact;

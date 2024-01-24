@@ -1,5 +1,5 @@
 import React from 'react'
-
+import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 const Value = () => {
     return (
         <div className="accordion container mt-5" id="accordionPanelsStayOpenExample">

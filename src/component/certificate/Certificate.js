@@ -1,5 +1,6 @@
 import React from 'react';
 
+import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -17,6 +18,7 @@ const Certificate = () => {
     speed: 2000,
     autoplaySpeed: 1000,
     cssEase: 'linear',
+    touchMove: false,
   };
   return (
     <>
@@ -33,19 +35,19 @@ const Certificate = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-12">
-            <div className="shadow" style={{ marginBottom: '40px' }}>
+            <div className="overflow-hidden shadow" style={{ marginBottom: '40px', }}>
               <Slider {...settings}>
                 <div style={{ paddingLeft: '20px' }}>
-                  <img className='img-fluid ps-3' src={Apeedalogo} alt="Apeeda Logo" width="220" height="120" loading="lazy" />
+                  <img className=' overflow-auto img-fluid ps-3' src={Apeedalogo} alt="Apeeda Logo" width="220" height="120" loading="lazy" />
                 </div>
                 <div style={{ marginRight: '20px' }}>
-                  <img className='img-fluid ps-3' src={Fssailogo} alt="FSSAI Logo" width="220" height="120" loading="lazy" />
+                  <img className='overflow-auto img-fluid ps-3' src={Fssailogo} alt="FSSAI Logo" width="220" height="120" loading="lazy" />
                 </div>
                 <div style={{ marginRight: '20px' }}>
-                  <img className='img-fluid ps-3' src={Organicindialogo} alt="Organic India Logo" width="220" height="120" loading="lazy" />
+                  <img className='overflow-auto img-fluid ps-3' src={Organicindialogo} alt="Organic India Logo" width="220" height="120" loading="lazy" />
                 </div>
                 <div style={{ marginRight: '20px' }}>
-                  <img className='img-fluid ps-3' src={Isologo} alt="ISO Logo" width="220" height="120" loading="lazy" />
+                  <img className='overflow-auto img-fluid ps-3' src={Isologo} alt="ISO Logo" width="220" height="120" loading="lazy" />
                 </div>
               </Slider>
             </div>

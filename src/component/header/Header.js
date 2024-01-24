@@ -1,19 +1,14 @@
 import React from 'react';
-
+import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
 import Gwallogs from '../images/gwallogos.png';
 
 
 const Header = () => {
-
-
-
     return (
 
-    
-
-        <nav className="navbar navbar-expand-lg bg-body-tertiary mt-20 pb-0 shadow sticky-top">
-            <div className="container-fluid">
+        <header className="navbar navbar-expand-lg bg-body-tertiary pt-0 pb-0 shadow sticky-top">
+            <nav className="container-fluid">
                 <Link to='/' className="navbar-brand pt-.500 pb-.500">
                     <img src={Gwallogs} alt="Shri Gwal Logo" width="100" height="50" /> {/* Adjusted width */}
                 </Link>
@@ -44,15 +39,10 @@ const Header = () => {
                                 <button type="button" className="btn btn-outline-primary"><b>Contact Us</b></button>
                             </Link> {/* Added margin-right */}
                         </li>
-
-
                     </ul>
-
                 </div>
-            </div>
-
-        </nav>
-
+            </nav>
+        </header>
 
     )
 }

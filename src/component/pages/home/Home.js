@@ -1,24 +1,22 @@
-import React from 'react'
+import React from 'react';
 import './Home.css';
 import Crousel from '../../crousel/Crousel'
 import Value from '../../value/Value';
 import Certificate from '../../certificate/Certificate';
-import Papular_product from '../../popular_product/Papular_product';
+import Papularproduct from '../../popular-product/Papular-product';
+
 
 
 const Home = () => {
     return (
-        <>
+        <div className='home'>
             <Crousel/>
             <Value/>
-            <Papular_product/>
-            <Certificate/>
-            
-            
-        </>
+            <Papularproduct/>
+            <Certificate />
+        </div>
     )
 }
-
 export default Home;
 
 

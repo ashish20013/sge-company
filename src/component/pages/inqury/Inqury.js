@@ -1,15 +1,14 @@
-import React from 'react'
+import React from 'react';
+import { Helmet } from 'react-helmet';
+import '../../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import { useState } from 'react';
-
 
 const Inqury = () => {
     const [submitted, setSubmitted] = useState(false);
     const [showSuccess, setShowSuccess] = useState(false);
-
     const handleSubmit = async (e) => {
         e.preventDefault();
         // Perform form submission logic here
-
         // Send message to Telegram bot
         const botToken = '6731739605:AAEX9CvgoRlR3BIHhHt3Tq9bsFOs3IDpt0M'; // Replace with your bot token
         const chatId = '@shrigwal'; // Replace with your chat ID
@@ -20,12 +19,10 @@ Phone: ${e.target.phone.value}
 Product: ${e.target.product.value}
 Country: ${e.target.country.value}
 Description: ${e.target.description.value}`;
-
         try {
             const response = await fetch(`https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(message)}`, {
                 method: 'POST'
             });
-
             if (response.ok) {
                 setShowSuccess(true);
             } else {
@@ -37,9 +34,14 @@ Description: ${e.target.description.value}`;
     };
     return (
         <div className="container m-10 shadow " style={{ padding: 40 }}>
+            <Helmet>
+                <title>Send Inquiry for Products - Shri Gwal Exim Pvt. Ltd.</title>
+                <meta name="description" content="Need grains, pulses, spices, oils, foxnut, potato, wheat, wheat flour, rice, gram,  fruits & veggies? We export globally. Inquire now." />
+                <meta name="keywords" content=" Global Exporter of foodstuffs Grains and Cereals, Pulses, Spices, Edible oils, Fruits & Vegetables in United Arab Emirates, Saudi Arabi, Indonesia, Malaysia, Philippines, Brazil, Denmark, Nigeria, Austria, Egypt, Iran, Portugal, Morocco, Algeria, South Africa, Iraq, china, japan, United states, Germany, United Kingdom, South Korea Italy, France, Nepal, Bangladesh, india, inquiry shri gwal exim" />
+            </Helmet>
             <h2>
                 <div className='col-md-12 text-center'>
-                    <h2 className='main-heading'>Send Buy Inqury</h2>
+                    <h2 className='main-heading'>Send Inquiry for Products</h2>
                     <div className='underline mx-auto'></div>
                 </div>
             </h2>
@@ -78,5 +80,4 @@ Description: ${e.target.description.value}`;
         </div>
     )
 }
-
 export default Inqury;

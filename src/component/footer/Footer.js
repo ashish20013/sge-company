@@ -1,4 +1,6 @@
 import React from 'react';
+import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
 const Footer = () => {
   return (
     <footer className='bg-dark text-white pt-0 pb-1'>

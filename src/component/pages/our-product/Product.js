@@ -1,6 +1,7 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
+import '../../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
-
 import Wheatandflour from "../../images/wheatandflour.jpg";
 import Rice from "../../images/rice.jpg";
 import Gram from '../../images/gram.jpg';
@@ -15,8 +16,12 @@ import Mustardandmustardoil from "../../images/mustardandmustardoil.jpg";
 const Product = () => {
     return (
         <div className="row row-cols-1 row-cols-md-2 g-4" style={{ margin: '20px' }}>
-
-            <div className="col shadow" style={{ padding: '20px' }}>
+            <Helmet>
+                <title>Foodstuffs for Global Export  - Shri Gwal Exim Pvt. Ltd.</title>
+                <meta name="description" content="We are Leading Global exporter of grains, cereals, pulses, spices, edible oils, fruits, and vegetables, wheat, maize, barley, sorghum, millet, kidney beans, black pepper, chilli peppers, cumin, turmeric, ginger, garlic, cinnamon, apples, grapes, oranges, pineapples, kiwis, potatoes, onions, tomatoes, garlic, and mushrooms"/>
+                <meta name="keywords" content="Pulses Export, Spices Export, Edible Oil Export, Fruit Export, Vegetable Export, Agricultural Products Export, Food Export, International pulses Export, Global fruit export, Export-quality cereals, cereal trading, Wheatandflour exporter, Rice exporter, Gram exporter, Potato exporter, Green and red chillies, Ginger Exporter, Woodfruit exporter, Papaya Exporter, Gooseberry and Amla Exporter, Foxnut exporter, Mustard and mustard oil exporter, Edible oil exporter, Natural and Organic products, products shri gwal exim, global exporters of wheat, exporter of rice in the world, biggest exporter of bananas, largest exporter of sunflower seeds, largest exporter of honey in the world "/>
+            </Helmet>
+            <main className="col shadow" style={{ padding: '20px' }}>
                 <div className="card" style={{ padding: '20px' }}>
                     <img src={Wheatandflour} className="card-img-top " alt="wheat_image" />
                     <div className="card-body">
@@ -31,7 +36,7 @@ const Product = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </main>
             <div className="col shadow" style={{ padding: '20px' }}>
                 <div className="card" style={{ padding: '20px' }}>
                     <img src={Rice} className="card-img-top" alt="rice_image" />
@@ -182,11 +187,7 @@ const Product = () => {
                     </div>
                 </div>
             </div>
-
-
-
         </div>
     )
 }
-
 export default Product;
