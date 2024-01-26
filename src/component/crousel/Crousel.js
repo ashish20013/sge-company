@@ -59,7 +59,7 @@ const Crousel = () => {
                         className="d-block w-100 img-fluid"
                         srcSet={`${Papaya} 500w, ${Papaya} 1000w, ${Papaya} 1500w`}
                         sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1500px"
-                        alt="Papaya" style={{ maxHeight: '650px' }}
+                        alt="Papaya" style={{ maxHeight: '650px' }} 
                     />
                     <div className="carousel-caption d-none d-md-block">
                         <h2 className="main-heading btn btn-primary" type="button"><b>  Papaya  </b></h2>
@@ -71,7 +71,7 @@ const Crousel = () => {
                         className="d-block w-100 img-fluid"
                         srcSet={`${Foxnut} 500w, ${Foxnut} 1000w, ${Foxnut} 1500w`}
                         sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1500px"
-                        alt="Fooxnut" style={{ maxHeight: '650px' }}
+                        alt="Fooxnut" style={{ maxHeight: '650px' }} 
                     />
                     <div className="carousel-caption d-none d-md-block">
                         <h2 className="main-heading btn btn-primary" type="button"><b>  Foxnut  </b></h2>
@@ -83,7 +83,7 @@ const Crousel = () => {
                         className="d-block w-100 img-fluid"
                         srcSet={`${Gram} 500w, ${Gram} 1000w, ${Gram} 1500w`}
                         sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1500px"
-                        alt="Gram" style={{ maxHeight: '650px' }}
+                        alt="Gram" style={{ maxHeight: '650px' }} 
                     />
                     <div className="carousel-caption d-none d-md-block">
                         <h2 className="main-heading btn btn-primary" type="button"><b>  Gram  </b></h2>
@@ -95,7 +95,7 @@ const Crousel = () => {
                         className="d-block w-100 img-fluid"
                         srcSet={`${Potato} 500w, ${Potato} 1000w, ${Potato} 1500w`}
                         sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1500px"
-                        alt="Potato" style={{ maxHeight: '650px' }}
+                        alt="Potato" style={{ maxHeight: '650px' }} 
                     />
                     <div className="carousel-caption d-none d-md-block">
                         <h2 className="main-heading btn btn-primary" type="button"><b>  Potato  </b></h2>
@@ -107,7 +107,7 @@ const Crousel = () => {
                         className="d-block w-100 img-fluid"
                         srcSet={`${Greenandredchillies} 500w, ${Greenandredchillies} 1000w, ${Greenandredchillies} 1500w`}
                         sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1500px"
-                        alt="Green and Red Chillies" style={{ maxHeight: '650px' }}
+                        alt="Green and Red Chillies" style={{ maxHeight: '650px' }} 
                     />
                     <div className="carousel-caption d-none d-md-block">
                         <h2 className="main-heading btn btn-primary" type="button"><b>  Green and Red Chillies  </b></h2>
@@ -119,7 +119,7 @@ const Crousel = () => {
                         className="d-block w-100 img-fluid"
                         srcSet={`${Ginger} 500w, ${Ginger} 1000w, ${Ginger} 1500w`}
                         sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1500px"
-                        alt="Ginger" style={{ maxHeight: '650px' }}
+                        alt="Ginger" style={{ maxHeight: '650px' }} 
                     />
                     <div className="carousel-caption d-none d-md-block">
                         <h2 className="main-heading btn btn-primary" type="button"><b>  Ginger  </b></h2>
@@ -131,7 +131,7 @@ const Crousel = () => {
                         className="d-block w-100 img-fluid"
                         srcSet={`${Gooseberry} 500w, ${Gooseberry} 1000w, ${Gooseberry} 1500w`}
                         sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1500px"
-                        alt="Gooseberry" style={{ maxHeight: '650px' }}
+                        alt="Gooseberry" style={{ maxHeight: '650px' }} 
                     />
                     <div className="carousel-caption d-none d-md-block">
                         <h2 className="main-heading btn btn-primary" type="button"><b>  Gooseberry / Amla  </b></h2>
@@ -143,7 +143,7 @@ const Crousel = () => {
                         className="d-block w-100 img-fluid"
                         srcSet={`${Woodfruit} 500w, ${Woodfruit} 1000w, ${Woodfruit} 1500w`}
                         sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1500px"
-                        alt="Wood Fruit" style={{ maxHeight: '650px' }}
+                        alt="Wood Fruit" style={{ maxHeight: '650px' }} 
                     />
                     <div className="carousel-caption d-none d-md-block">
                         <h2 className="main-heading btn btn-primary" type="button"><b>  Mustard and Mustard oil  </b></h2>
@@ -155,7 +155,7 @@ const Crousel = () => {
                         className="d-block w-100 img-fluid"
                         srcSet={`${Mustardandmustardoil} 500w, ${Mustardandmustardoil} 1000w, `}
                         sizes="(max-width: 500px) 500px, (max-width: 1000px) 1000px, 1500px"
-                        alt="Mustard and Mustard oil" style={{ maxHeight: '650px' }}
+                        alt="Mustard and Mustard oil" style={{ maxHeight: '650px' }} 
                     />
                       <div className="carousel-caption d-none d-md-block">
                         <h2 className="main-heading btn btn-primary" type="button"><b>  Mustard and Mustard oil  </b></h2>

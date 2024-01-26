@@ -1,10 +1,8 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import '../../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import Inqury from '../inqury/Inqury';
 import { useState } from 'react';
 const Contact = () => {
-  const [submitted, setSubmitted] = useState(false);
   const [showSuccess, setShowSuccess] = useState(false);
   const handleSubmit = async (e) => {
     e.preventDefault();

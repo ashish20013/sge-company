@@ -4,7 +4,6 @@ import '../../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import { useState } from 'react';
 
 const Inqury = () => {
-    const [submitted, setSubmitted] = useState(false);
     const [showSuccess, setShowSuccess] = useState(false);
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -60,7 +59,7 @@ Description: ${e.target.description.value}`;
                 </div>
                 <div className="mb-3">
                     <label htmlFor="product" className="form-label">Product Name</label>
-                    <input type="tel" className="form-control" id="product" placeholder="Enter product name" required />
+                    <input type="text" className="form-control" id="product" placeholder="Enter product name" required />
                 </div>
                 <div className="mb-3">
                     <label htmlFor="country" className="form-label">Country</label>

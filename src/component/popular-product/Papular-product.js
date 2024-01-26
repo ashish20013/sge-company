@@ -65,7 +65,7 @@ const Papularproduct = () => {
             </div>
           </div>
           <div className="">
-            <img className='img-fluid ps-3' src={Gram} alt="gram_image" loading="lazy" />
+            <img className='img-fluid ps-3' src={Gram} alt="gram_image" />
             <div className="card-body">
               <div className='col-md-12 text-center'>
                 <h2 className='main-heading text-primary'>Gram</h2>
@@ -76,7 +76,7 @@ const Papularproduct = () => {
             </div>
           </div>
           <div className="">
-            <img className='img-fluid ps-3' src={Potato} alt="potato_image" loading="lazy" />
+            <img className='img-fluid ps-3' src={Potato} alt="potato_image" />
             <div className="card-body">
               <div className='col-md-12 text-center'>
                 <h2 className='main-heading text-primary'>Potato</h2>
@@ -87,7 +87,7 @@ const Papularproduct = () => {
             </div>
           </div>
           <div className="">
-            <img className='img-fluid ps-3' src={Greenandredchillies} alt="chilli_image" loading="lazy" />
+            <img className='img-fluid ps-3' src={Greenandredchillies} alt="chilli_image" />
             <div className="card-body">
               <div className='col-md-12 text-center'>
                 <h2 className='main-heading text-primary'>Chillies</h2>
@@ -98,7 +98,7 @@ const Papularproduct = () => {
             </div>
           </div>
           <div className="">
-            <img className='img-fluid ps-3' src={Ginger} alt="ginger_image" loading="lazy" />
+            <img className='img-fluid ps-3' src={Ginger} alt="ginger_image" />
             <div className="card-body">
               <div className='col-md-12 text-center'>
                 <h2 className='main-heading text-primary'>Ginger</h2>
@@ -109,7 +109,7 @@ const Papularproduct = () => {
             </div>
           </div>
           <div className="">
-            <img className='img-fluid ps-3' src={Woodfruit} alt="woodfruit_image" loading="lazy" />
+            <img className='img-fluid ps-3' src={Woodfruit} alt="woodfruit_image" />
             <div className="card-body">
               <div className='col-md-12 text-center'>
                 <h2 className='main-heading text-primary'>Woodfruit</h2>
@@ -120,7 +120,7 @@ const Papularproduct = () => {
             </div>
           </div>
           <div className="">
-            <img className='img-fluid ps-3' src={Wheatandflour} alt="wheat_image" loading="lazy" />
+            <img className='img-fluid ps-3' src={Wheatandflour} alt="wheat_image" />
             <div className="card-body">
               <div className='col-md-12 text-center'>
                 <h2 className='main-heading text-primary'>Wheat & Flour</h2>
@@ -131,7 +131,7 @@ const Papularproduct = () => {
             </div>
           </div>
           <div className="">
-            <img className='img-fluid ps-3' src={Gooseberry} alt="avla_image" loading="lazy" />
+            <img className='img-fluid ps-3' src={Gooseberry} alt="avla_image" />
             <div className="card-body">
               <div className='col-md-12 text-center'>
                 <h2 className='main-heading text-primary'>Gooseberry / Amla</h2>
@@ -142,7 +142,7 @@ const Papularproduct = () => {
             </div>
           </div>
           <div className="">
-            <img className='img-fluid ps-3' src={Foxnut} alt="foxnut_image" loading="lazy" />
+            <img className='img-fluid ps-3' src={Foxnut} alt="foxnut_image" />
             <div className="card-body">
               <div className='col-md-12 text-center'>
                 <h2 className='main-heading text-primary'>Foxnut</h2>
@@ -153,7 +153,7 @@ const Papularproduct = () => {
             </div>
           </div>
           <div className="">
-            <img className='img-fluid ps-3' src={Mustardandmustardoil} alt="musterdoil_image" loading="lazy" />
+            <img className='img-fluid ps-3' src={Mustardandmustardoil} alt="musterdoil_image" />
             <div className="card-body">
               <div className='col-md-12 text-center'>
                 <h2 className='main-heading text-primary'>Mustard & oil</h2>

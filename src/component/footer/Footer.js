@@ -35,15 +35,14 @@ const Footer = () => {
               Uttam Nagar, Delhi, 110059, India
             </p>
             <span>
-              <iframe
+              <embed
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.5533522807077!2d77.0302433752895!3d28.643145675658925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d051cc7407c47%3A0x6e8c34d35d0906eb!2sShri%20Gwal%20Exim%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1704677359302!5m2!1sen!2sin"
-                width="330"
+                width="250"
                 height="230"
                 allowFullScreen=""
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-
-              ></iframe>
+                overflow-hidden
+                referrerPolicy="no-referrer-when-downgrade">
+              </embed>
             </span>
           </div>
         </div>

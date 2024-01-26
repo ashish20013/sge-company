@@ -1,10 +1,8 @@
 import React from 'react';
 import {
   BrowserRouter,
-  createBrowserRouter,
   Route,
   Routes,
-  RouterProvider,
   Outlet,
 } from "react-router-dom";
 import Home from './component/pages/home/Home';
