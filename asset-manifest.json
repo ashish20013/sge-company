@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2e539a36.css",
+    "main.js": "/static/js/main.1c40b6b9.js",
+    "static/js/787.a9b0282f.chunk.js": "/static/js/787.a9b0282f.chunk.js",
+    "static/media/gwallogos.png": "/static/media/gwallogos.b0c69be053cc72115f38.png",
+    "static/media/woodfruit.jpg": "/static/media/woodfruit.12dc6c97570ec781e1a1.jpg",
+    "static/media/potato.jpg": "/static/media/potato.6f0d01dbd44a7217d529.jpg",
+    "static/media/rice.jpg": "/static/media/rice.57ddc108d104b4b81e74.jpg",
+    "static/media/gooseberry.jpg": "/static/media/gooseberry.17f8111461b770afd26e.jpg",
+    "static/media/mustardandmustardoil.jpg": "/static/media/mustardandmustardoil.088684d0ca9e3f2c8ae3.jpg",
+    "static/media/papaya.jpg": "/static/media/papaya.958c2f3fae321876e148.jpg",
+    "static/media/gram.jpg": "/static/media/gram.83dc121db512217e8f39.jpg",
+    "static/media/foxnut.jpg": "/static/media/foxnut.064ff7a411b41a4fa124.jpg",
+    "static/media/wheatandflour.jpg": "/static/media/wheatandflour.3e1d9214bc0abb8efa3c.jpg",
+    "static/media/greenandredchillies.jpg": "/static/media/greenandredchillies.153471c4aaa65593dd86.jpg",
+    "static/media/ginger.jpg": "/static/media/ginger.37af8460bba6e4926648.jpg",
+    "static/media/apeedalogo.png": "/static/media/apeedalogo.3b7a9b73a1d90e939052.png",
+    "static/media/fssailogo.png": "/static/media/fssailogo.a893aacdb100c3839fd2.png",
+    "index.html": "/index.html",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "main.2e539a36.css.map": "/static/css/main.2e539a36.css.map",
+    "main.1c40b6b9.js.map": "/static/js/main.1c40b6b9.js.map",
+    "787.a9b0282f.chunk.js.map": "/static/js/787.a9b0282f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e539a36.css",
+    "static/js/main.1c40b6b9.js"
+  ]
+}
